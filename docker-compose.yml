@@ -9,11 +9,11 @@ services:
         environment: 
             - APP_NAME=Docker
         expose:
-            -8080
+            - 8080
 
     nginx:        
         build: ./nginx
         container_name: nginx
         restart: always
         ports:
-            -"80:80"
+            - "80:80"
