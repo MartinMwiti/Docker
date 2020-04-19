@@ -1,6 +1,8 @@
 # Docker
 Setting and running applications using Docker.
-
+---
+* [Docker config](https://medium.com/bitcraft/docker-composing-a-python-3-flask-app-line-by-line-93b721105777)
+---
 ### Projects
 **1. How To Set Up Flask with MongoDB and Docker**
 
