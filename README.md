@@ -4,13 +4,13 @@ Setting and running applications using Docker.
 ## Installing Docker into Linux- Ubuntu
 
  * Article for the below steps: [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
- * check if you have the OS requirements (Bionic) by running ```cat /etc/*release*``` on the terminal.
- * Uninstall old versions by running ```sudo apt-get remove docker docker-engine docker.io containerd runc```.
- * Set up the repository.Easier way to install docker is to go down to the bottom *Install using the convenience script*.
-     - ```curl -fsSL https://get.docker.com -o get-docker.sh```
-     - ```sudo sh get-docker.sh```
- * Check docker version by running ```sudo docker version``` command.
- * Run a simple container to ensure everything is running as expected: ```sudo docker run docker/whalesay cowsay Hello-World```     found in the docker hub ``https://hub.docker.com/r/docker/whalesay``.
+ 1. check if you have the OS requirements (Bionic) by running ```cat /etc/*release*``` on the terminal.
+ 2. Uninstall old versions by running ```sudo apt-get remove docker docker-engine docker.io containerd runc```.
+ 3. Set up the repository.Easier way to install docker is to go down to the bottom *Install using the convenience script*.
+     + ```curl -fsSL https://get.docker.com -o get-docker.sh```
+     + ```sudo sh get-docker.sh```
+ 4. Check docker version by running ```sudo docker version``` command.
+ * (optional) Run a simple container to ensure everything is running as expected: ```sudo docker run docker/whalesay cowsay Hello-World``` found in the docker hub ``https://hub.docker.com/r/docker/whalesay``.
  
  ### Installing docker compose
  
