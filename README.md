@@ -37,4 +37,4 @@ References:
     + the ``-p`` option tells Docker to map the ports exposed in the container by the NGINX image (port ``80``) to the specified port on the Docker host. The first parameter specifies the port in the Docker host, the <ins>second parameter is mapped to the port exposed in the container</ins>.
  
 ### Additional NGINX info
-```https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker/```
+Installing NGINX in Docker [](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker/)
