@@ -34,5 +34,5 @@ References:
 * ```$ docker run --name mynginx -p 80:80 -d nginx```
     + ``mynginx`` is the name of the created container based on the NGINX image.
     + the ``-d`` option specifies that the container runs in detached mode: the container continues to run until stopped but does not  respond to commands run on the command line.
-    + the ``-p`` option tells Docker to map the ports exposed in the container by the NGINX image (port ``80``) to the specified port on the Docker host. The first parameter specifies the port in the Docker host, the second parameter is mapped to the port exposed in the container.
+    + the ``-p`` option tells Docker to map the ports exposed in the container by the NGINX image (port ``80``) to the specified port on the Docker host. The first parameter specifies the port in the Docker host, the <ins>second parameter is mapped to the port exposed in the container</ins>.
  
