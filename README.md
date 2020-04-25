@@ -1,21 +1,9 @@
 # Docker
-Setting and running applications using Docker.
----
-References:
-* Template: ["Docker-composing" a Python 3 Flask App Line-by-Line](https://medium.com/bitcraft/docker-composing-a-python-3-flask-app-line-by-line-93b721105777)
-* Additional: [How To Serve Flask Applications with uWSGI and Nginx on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uswgi-and-nginx-on-ubuntu-18-04)
-* [Docker config](https://medium.com/bitcraft/docker-composing-a-python-3-flask-app-line-by-line-93b721105777)
-* [support](https://medium.com/bitcraft/dockerizing-a-python-3-flask-app-line-by-line-400aef1ded3a)
----
-### Projects
-**1. How To Set Up Flask with MongoDB and Docker**
-
- App: [How-to-set-up-flask-with-mongodb-and-docker](https://www.digitalocean.com/community/tutorials/how-to-set-up-flask-with-mongodb-and-docker)
- 
+Setting and running applications using Docker. 
 ---
 ## Installing Docker into Linux- Ubuntu
 
- * Start: [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
+ * Article for the below steps: [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)
  * check if you have the OS requirements (Bionic) by running ```cat /etc/*release*``` on the terminal.
  * Uninstall old versions by running ```sudo apt-get remove docker docker-engine docker.io containerd runc```.
  * Set up the repository.Easier way to install docker is to go down to the bottom *Install using the convenience script*.
@@ -38,3 +26,14 @@ References:
  
 ### Additional NGINX info
 [Installing NGINX in Docker](https://docs.nginx.com/nginx/admin-guide/installing-nginx/installing-nginx-docker/)
+
+---
+### Projects
+Guide to creating Docker Images and Docker-Compose:
+* ["Docker-composing" a Python 3 Flask App Line-by-Line](https://medium.com/bitcraft/docker-composing-a-python-3-flask-app-line-by-line-93b721105777)
+* [How To Serve Flask Applications with uWSGI and Nginx on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-uswgi-and-nginx-on-ubuntu-18-04)
+* [Dockerizing a Python 3 Flask App Line-by-Line](https://medium.com/bitcraft/dockerizing-a-python-3-flask-app-line-by-line-400aef1ded3a)
+---
+**1. How To Set Up Flask with MongoDB and Docker**
+
+ [How-to-set-up-flask-with-mongodb-and-docker](https://www.digitalocean.com/community/tutorials/how-to-set-up-flask-with-mongodb-and-docker)
