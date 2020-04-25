@@ -26,6 +26,11 @@ References:
  
  * RUN ```sudo pip install docker-compose```
 ---
+*NB: In computer networking, port forwarding or port mapping is an application of network address translation (NAT) that redirects a communication request from one address and port number combination to another while the packets are traversing a network gateway, such as a router or firewall.*
 
- 
+ ## NGINX 
+    * ```$ docker run --name mynginx -p 80:80 -d nginx```
+        + ``mynginx`` is the name of the created container based on the NGINX image.
+        + the ``-d`` option specifies that the container runs in detached mode: the container continues to run until stopped but does not respond to commands run on the command line.
+        + the ``-p`` option tells Docker to map the ports exposed in the container by the NGINX image (port ``80``) to the specified port on the Docker host. The first parameter specifies the port in the Docker host, the second parameter is mapped to the port exposed in the container.
  
